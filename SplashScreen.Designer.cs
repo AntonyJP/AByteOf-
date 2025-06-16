@@ -33,6 +33,7 @@
             lblTextHello = new Label();
             pgbLoading = new ProgressBar();
             tmrLoading = new System.Windows.Forms.Timer(components);
+            tmrText = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pcbLogo).BeginInit();
             SuspendLayout();
             // 
@@ -50,11 +51,11 @@
             lblTextHello.AutoSize = true;
             lblTextHello.Font = new Font("Gill Sans Ultra Bold Condensed", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTextHello.ForeColor = Color.Gray;
-            lblTextHello.Location = new Point(349, 198);
+            lblTextHello.Location = new Point(450, 206);
             lblTextHello.Name = "lblTextHello";
-            lblTextHello.Size = new Size(246, 67);
+            lblTextHello.Size = new Size(121, 67);
             lblTextHello.TabIndex = 1;
-            lblTextHello.Text = "Hola/你好";
+            lblTextHello.Text = "Hola";
             // 
             // pgbLoading
             // 
@@ -68,8 +69,13 @@
             // 
             // tmrLoading
             // 
-            tmrLoading.Interval = 150;
+            tmrLoading.Interval = 50;
             tmrLoading.Tick += tmrLoading_Tick;
+            // 
+            // tmrText
+            // 
+            tmrText.Interval = 2000;
+            tmrText.Tick += tmrText_Tick;
             // 
             // SplashScreen
             // 
@@ -95,5 +101,6 @@
         private Label lblTextHello;
         private ProgressBar pgbLoading;
         private System.Windows.Forms.Timer tmrLoading;
+        private System.Windows.Forms.Timer tmrText;
     }
 }
