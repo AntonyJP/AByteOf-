@@ -28,76 +28,91 @@
         /// </summary>
         private void InitializeComponent()
         {
-
-            pnlMainHuWelcome = new Panel();
-            flpMainHub = new FlowLayoutPanel();
-            pcbLogo = new PictureBox();
-            lblWelcome = new Label();
-            pnlMainHuWelcome.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pcbLogo).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Log_in));
+            panel1 = new Panel();
+            pictureBox1 = new PictureBox();
+            panel2 = new Panel();
+            btnClose = new Button();
+            panelMenu = new Panel();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // pnlMainHuWelcome
+            // panel1
             // 
-            pnlMainHuWelcome.Controls.Add(lblWelcome);
-            pnlMainHuWelcome.Controls.Add(pcbLogo);
-            pnlMainHuWelcome.Dock = DockStyle.Left;
-            pnlMainHuWelcome.Location = new Point(0, 0);
-            pnlMainHuWelcome.Name = "pnlMainHuWelcome";
-            pnlMainHuWelcome.Size = new Size(450, 650);
-            pnlMainHuWelcome.TabIndex = 0;
+            panel1.BackColor = SystemColors.ActiveBorder;
+            panel1.Controls.Add(pictureBox1);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 27);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(250, 541);
+            panel1.TabIndex = 0;
             // 
-            // flpMainHub
+            // pictureBox1
             // 
-            flpMainHub.Dock = DockStyle.Right;
-            flpMainHub.Location = new Point(450, 0);
-            flpMainHub.Name = "flpMainHub";
-            flpMainHub.Size = new Size(450, 650);
-            flpMainHub.TabIndex = 1;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(55, 56);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(140, 137);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
-            // pcbLogo
+            // panel2
             // 
-            pcbLogo.Location = new Point(50, 70);
-            pcbLogo.Name = "pcbLogo";
-            pcbLogo.Size = new Size(349, 343);
-            pcbLogo.TabIndex = 0;
-            pcbLogo.TabStop = false;
+            panel2.BackColor = SystemColors.ActiveBorder;
+            panel2.Controls.Add(btnClose);
+            panel2.Dock = DockStyle.Top;
+            panel2.ImeMode = ImeMode.NoControl;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1029, 27);
+            panel2.TabIndex = 1;
             // 
-            // lblWelcome
+            // btnClose
             // 
-            lblWelcome.AutoSize = true;
-            lblWelcome.Location = new Point(200, 425);
-            lblWelcome.Name = "lblWelcome";
-            lblWelcome.Size = new Size(38, 15);
-            lblWelcome.TabIndex = 1;
-            lblWelcome.Text = "label1";
-            lblWelcome.TextAlign = ContentAlignment.MiddleCenter;
+            btnClose.BackColor = Color.Transparent;
+            btnClose.Location = new Point(990, 3);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(39, 24);
+            btnClose.TabIndex = 0;
+            btnClose.Text = "X";
+            btnClose.UseVisualStyleBackColor = false;
+            btnClose.Click += btnClose_Click;
             // 
-
+            // panelMenu
+            // 
+            panelMenu.Location = new Point(243, 27);
+            panelMenu.Name = "panelMenu";
+            panelMenu.Size = new Size(786, 537);
+            panelMenu.TabIndex = 2;
+            // 
             // Log_in
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-
-            ClientSize = new Size(900, 650);
-            Controls.Add(flpMainHub);
-            Controls.Add(pnlMainHuWelcome);
+            ClientSize = new Size(1029, 568);
+            Controls.Add(panelMenu);
+            Controls.Add(panel1);
+            Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Log_in";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Log_in";
-            pnlMainHuWelcome.ResumeLayout(false);
-            pnlMainHuWelcome.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pcbLogo).EndInit();
-
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel pnlMainHuWelcome;
-        private Label lblWelcome;
-        private PictureBox pcbLogo;
-        private FlowLayoutPanel flpMainHub;
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panelMenu;
+        private PictureBox pictureBox1;
+        private Button btnClose;
     }
 }

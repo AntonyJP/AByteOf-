@@ -15,6 +15,24 @@ namespace AByteOf熊猫
         public Log_in()
         {
             InitializeComponent();
+            CargarForm(new FormInicio());
+        }
+        public void CargarForm(object formHijo)
+        {
+            if (this.panelMenu.Controls.Count > 0)
+                this.panelMenu.Controls.RemoveAt(0);
+
+            Form fh = formHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelMenu.Controls.Add(fh);
+            this.panelMenu.Tag = fh;
+            fh.Show();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
