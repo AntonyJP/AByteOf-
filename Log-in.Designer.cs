@@ -41,7 +41,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.ActiveBorder;
+            panel1.BackColor = Color.White;
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 27);
@@ -52,16 +52,16 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(55, 56);
+            pictureBox1.Location = new Point(32, 22);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(140, 137);
+            pictureBox1.Size = new Size(165, 166);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // panel2
             // 
-            panel2.BackColor = SystemColors.ActiveBorder;
+            panel2.BackColor = Color.White;
             panel2.Controls.Add(btnClose);
             panel2.Dock = DockStyle.Top;
             panel2.ImeMode = ImeMode.NoControl;
@@ -83,6 +83,7 @@
             // 
             // panelMenu
             // 
+            panelMenu.BackColor = Color.Lime;
             panelMenu.Location = new Point(243, 27);
             panelMenu.Name = "panelMenu";
             panelMenu.Size = new Size(786, 537);

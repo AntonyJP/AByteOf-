@@ -36,33 +36,37 @@
             // 
             // btnIniciarSesion
             // 
+            btnIniciarSesion.BackColor = Color.FromArgb(224, 224, 224);
             btnIniciarSesion.Location = new Point(319, 250);
             btnIniciarSesion.Name = "btnIniciarSesion";
             btnIniciarSesion.Size = new Size(178, 54);
             btnIniciarSesion.TabIndex = 0;
             btnIniciarSesion.Text = "INICIAR SESION";
-            btnIniciarSesion.UseVisualStyleBackColor = true;
+            btnIniciarSesion.UseVisualStyleBackColor = false;
             btnIniciarSesion.Click += btnIniciarSesion_Click;
             // 
             // btnRegistrarse
             // 
+            btnRegistrarse.BackColor = Color.FromArgb(224, 224, 224);
             btnRegistrarse.Location = new Point(319, 320);
             btnRegistrarse.Name = "btnRegistrarse";
             btnRegistrarse.Size = new Size(178, 54);
             btnRegistrarse.TabIndex = 0;
             btnRegistrarse.Text = "REGISTRARSE";
-            btnRegistrarse.UseVisualStyleBackColor = true;
+            btnRegistrarse.UseVisualStyleBackColor = false;
             btnRegistrarse.Click += btnRegistrarse_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(319, 88);
+            label1.Location = new Point(12, 36);
             label1.Name = "label1";
-            label1.Size = new Size(151, 38);
+            label1.RightToLeft = RightToLeft.No;
+            label1.Size = new Size(786, 38);
             label1.TabIndex = 1;
-            label1.Text = "WELCOME";
+            label1.Text = "BIENVENIDO ELIGE TU FORMA DE INICIAR CON NOSOTROS ";
             // 
             // FormInicio
             // 
