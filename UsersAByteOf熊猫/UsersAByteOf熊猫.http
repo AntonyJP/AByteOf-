@@ -1,6 +1,0 @@
-@UsersAByteOf熊猫_HostAddress = http://localhost:5074
-
-GET {{UsersAByteOf熊猫_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
