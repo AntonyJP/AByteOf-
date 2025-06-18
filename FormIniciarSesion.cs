@@ -10,24 +10,18 @@ using System.Windows.Forms;
 
 namespace AByteOf熊猫
 {
-
-    public partial class FormInicio : Form
+    public partial class FormIniciarSesion : Form
     {
         private Log_in formPrincipal;
-        public FormInicio(Log_in form)
+        public FormIniciarSesion(Log_in form)
         {
             InitializeComponent();
             formPrincipal = form;
         }
 
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        private void btnRegresarI_Click(object sender, EventArgs e)
         {
-            formPrincipal.CargarForm(new FormIniciarSesion(formPrincipal));
-        }
-
-        private void btnRegistrarse_Click(object sender, EventArgs e)
-        {
-            formPrincipal.CargarForm(new FormRegistrarse(formPrincipal));
+            formPrincipal.CargarForm(new FormInicio(formPrincipal));
         }
     }
 }
