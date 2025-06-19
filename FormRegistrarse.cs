@@ -9,12 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 using System.Net.Http;
+using AByteOf熊猫.Models;
 
 namespace AByteOf熊猫
 {
     public partial class FormRegistrarse : Form
     {
-        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("https://localhost:7249/api/Users") };
+        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("https://localhost:7249/api/Users/register") };
         private Log_in formPrincipal;
         public FormRegistrarse(Log_in form)
         {
@@ -29,7 +30,6 @@ namespace AByteOf熊猫
 
         private async void btnRegistrarCuentaApp_Click(object sender, EventArgs e)
         {
-            // Validar que los campos no estén vacíos
             if (string.IsNullOrWhiteSpace(txtUsuarioRe.Text) || string.IsNullOrWhiteSpace(txtCorreoRe.Text) ||
                 string.IsNullOrWhiteSpace(txtContraseñaRe.Text) || string.IsNullOrWhiteSpace(txtConfirmarContraseñaRe.Text))
             {
@@ -44,29 +44,31 @@ namespace AByteOf熊猫
                 return;
             }
 
-            // Crear el modelo para el registro
-            var registerModel = new
+            // Crear el modelo para el registro usando la clase Usuario
+            var usuario = new Usuarios
             {
-                Name = txtUsuarioRe.Text, // Usando "Usuario" como nombre
-                Email = txtCorreoRe.Text,
-                Password = txtContraseñaRe.Text,
-                ConfirmPassword = txtConfirmarContraseñaRe.Text
+                Nombre = txtUsuarioRe.Text,
+                Correo = txtCorreoRe.Text,
+                Contrasena = txtContraseñaRe.Text
             };
 
             try
             {
-                // Serializar el modelo a JSON
+                // Serializar el modelo a JSON y mostrarlo para depuración
                 var jsonContent = new StringContent(
-                    JsonConvert.SerializeObject(registerModel),
+                    JsonConvert.SerializeObject(usuario),
                     Encoding.UTF8,
                     "application/json"
                 );
+                MessageBox.Show("JSON enviado: " + JsonConvert.SerializeObject(usuario), "Depuración");
 
                 // Enviar la solicitud a la API
                 var response = await client.PostAsync("api/users/register", jsonContent);
                 var responseContent = await response.Content.ReadAsStringAsync();
 
-                // Mostrar el resultado
+                // Mostrar detalles de la respuesta para depuración
+                MessageBox.Show($"Código de estado: {(int)response.StatusCode}\nRespuesta: {responseContent}", "Depuración");
+
                 if (response.IsSuccessStatusCode)
                 {
                     MessageBox.Show(responseContent, "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -83,7 +85,7 @@ namespace AByteOf熊猫
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error: {ex.Message}\nStackTrace: {ex.StackTrace}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
