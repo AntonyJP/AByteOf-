@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AByteOf熊猫
 {
-    public partial class FormsMenu : Form
+    public partial class FormAcceso : Form
     {
-        public FormsMenu()
+        public FormAcceso()
         {
             InitializeComponent();
-        }
-
-        private void btnInciarSesion_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
