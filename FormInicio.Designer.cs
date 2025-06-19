@@ -28,18 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInicio));
             btnIniciarSesion = new Button();
             btnRegistrarse = new Button();
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // btnIniciarSesion
             // 
             btnIniciarSesion.BackColor = Color.FromArgb(224, 224, 224);
-            btnIniciarSesion.Location = new Point(319, 250);
+            btnIniciarSesion.Location = new Point(125, 206);
+            btnIniciarSesion.Margin = new Padding(3, 2, 3, 2);
             btnIniciarSesion.Name = "btnIniciarSesion";
-            btnIniciarSesion.Size = new Size(178, 54);
+            btnIniciarSesion.Size = new Size(197, 65);
             btnIniciarSesion.TabIndex = 0;
             btnIniciarSesion.Text = "INICIAR SESION";
             btnIniciarSesion.UseVisualStyleBackColor = false;
@@ -48,9 +49,10 @@
             // btnRegistrarse
             // 
             btnRegistrarse.BackColor = Color.FromArgb(224, 224, 224);
-            btnRegistrarse.Location = new Point(319, 320);
+            btnRegistrarse.Location = new Point(125, 292);
+            btnRegistrarse.Margin = new Padding(3, 2, 3, 2);
             btnRegistrarse.Name = "btnRegistrarse";
-            btnRegistrarse.Size = new Size(178, 54);
+            btnRegistrarse.Size = new Size(197, 65);
             btnRegistrarse.TabIndex = 0;
             btnRegistrarse.Text = "REGISTRARSE";
             btnRegistrarse.UseVisualStyleBackColor = false;
@@ -61,23 +63,37 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 36);
+            label1.Location = new Point(75, 58);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
-            label1.Size = new Size(786, 38);
+            label1.Size = new Size(317, 30);
             label1.TabIndex = 1;
-            label1.Text = "BIENVENIDO ELIGE TU FORMA DE INICIAR CON NOSOTROS ";
+            label1.Text = "BIENVENIDO ELIGE TU FORMA";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(75, 88);
+            label2.Name = "label2";
+            label2.RightToLeft = RightToLeft.No;
+            label2.Size = new Size(313, 30);
+            label2.TabIndex = 1;
+            label2.Text = " DE INICIAR CON NOSOTROS ";
             // 
             // FormInicio
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(800, 450);
+            BackColor = Color.FromArgb(125, 250, 90);
+            ClientSize = new Size(450, 550);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnRegistrarse);
             Controls.Add(btnIniciarSesion);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormInicio";
             Text = "FormInicio";
             ResumeLayout(false);
@@ -89,5 +105,6 @@
         private Button btnIniciarSesion;
         private Button btnRegistrarse;
         private Label label1;
+        private Label label2;
     }
 }

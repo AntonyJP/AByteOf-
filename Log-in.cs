@@ -15,8 +15,11 @@ namespace AByteOf熊猫
         public Log_in()
         {
             InitializeComponent();
-            CargarForm(new FormInicio (this));
-           
+            string rutaLogo = Path.Combine(Application.StartupPath, "Assets", "A byte of.png");
+            pcbLogo.Image = Image.FromFile(rutaLogo);
+
+            CargarForm(new FormInicio(this));
+
         }
         public void CargarForm(object formHijo)
         {
@@ -30,11 +33,16 @@ namespace AByteOf熊猫
             this.panelMenu.Tag = fh;
             fh.Show();
         }
-        
+
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
