@@ -15,7 +15,7 @@ namespace AByteOf熊猫
 {
     public partial class FormRegistrarse : Form
     {
-        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("https://localhost:7159/api/Users/register") };
+        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("https://localhost:7159/") };
         private Log_in formPrincipal;
         public FormRegistrarse(Log_in form)
         {
