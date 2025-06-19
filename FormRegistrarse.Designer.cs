@@ -151,6 +151,7 @@
             btnRegistrarCuentaApp.Size = new Size(73, 42);
             btnRegistrarCuentaApp.TabIndex = 6;
             btnRegistrarCuentaApp.UseVisualStyleBackColor = false;
+            btnRegistrarCuentaApp.Click += btnRegistrarCuentaApp_Click;
             // 
             // FormRegistrarse
             // 
