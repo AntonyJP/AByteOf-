@@ -23,5 +23,19 @@ namespace AByteOf熊猫
         {
             formPrincipal.CargarForm(new FormInicio(formPrincipal));
         }
+        bool mostrarContra = false;
+        private void btnVerContrai_Click(object sender, EventArgs e)
+        {
+            mostrarContra = !mostrarContra;
+            txtContraseñai.UseSystemPasswordChar = !mostrarContra;
+            if (mostrarContra)
+            {
+                btnVerContrai.Image = Properties.Resources.ojoabierto;
+            }
+            else
+            {
+                btnVerContrai.Image = Properties.Resources.ojoCerrado;  
+            }
+        }
     }
 }
