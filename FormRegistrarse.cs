@@ -15,12 +15,13 @@ namespace AByteOf熊猫
 {
     public partial class FormRegistrarse : Form
     {
-        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("https://localhost:7249/api/Users/register") };
+        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("https://localhost:7159/api/Users/register") };
         private Log_in formPrincipal;
         public FormRegistrarse(Log_in form)
         {
             InitializeComponent();
             formPrincipal = form;
+            
         }
 
         private void btnRegresarR_Click(object sender, EventArgs e)
@@ -95,11 +96,11 @@ namespace AByteOf熊猫
             txtContraseñaRe.UseSystemPasswordChar = !mostrarContra;
             if (mostrarContra)
             {
-                btnVerContraR.Image = Properties.Resources.ojoabierto;
+                
             }
             else
             {
-                btnVerContraR.Image = Properties.Resources.ojoCerrado;
+                
             }
 
         }
@@ -110,11 +111,11 @@ namespace AByteOf熊猫
             txtConfirmarContraseñaRe.UseSystemPasswordChar = !mostrarContra;
             if (mostrarContra)
             {
-                btnVerContraConfirmarR.Image = Properties.Resources.ojoabierto;
+                
             }
             else
             {
-                btnVerContraConfirmarR.Image = Properties.Resources.ojoCerrado;
+                
             }
         }
     }

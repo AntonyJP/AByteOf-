@@ -2,6 +2,7 @@
 {
     partial class FormRegistrarse
     {
+        string ojoabierto = Path.Combine(Application.StartupPath, "Assets", "OjoAbierto.jpg");
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -152,7 +153,7 @@
             // btnVerContraR
             // 
             btnVerContraR.BackColor = Color.Transparent;
-            btnVerContraR.BackgroundImage = Properties.Resources.ojoabierto;
+            btnVerContraR.BackgroundImage = Image.FromFile(ojoabierto);
             btnVerContraR.BackgroundImageLayout = ImageLayout.Zoom;
             btnVerContraR.ForeColor = Color.Transparent;
             btnVerContraR.Location = new Point(387, 381);
@@ -165,7 +166,7 @@
             // btnVerContraConfirmarR
             // 
             btnVerContraConfirmarR.BackColor = Color.Transparent;
-            btnVerContraConfirmarR.BackgroundImage = Properties.Resources.ojoabierto;
+            btnVerContraConfirmarR.Image = Image.FromFile(ojoabierto);
             btnVerContraConfirmarR.BackgroundImageLayout = ImageLayout.Zoom;
             btnVerContraConfirmarR.ForeColor = Color.Transparent;
             btnVerContraConfirmarR.Location = new Point(387, 461);

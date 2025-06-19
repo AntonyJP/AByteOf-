@@ -11,10 +11,20 @@
   <ItemGroup>
 
     <None Remove="Assets\A byte of.png" />
+
+    <None Remove="Assets\OjoAbierto.jpg" />
+
+    <None Remove="Assets\OjoCerrado.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Assets\A byte of.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\OjoAbierto.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\OjoCerrado.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
