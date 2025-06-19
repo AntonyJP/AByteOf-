@@ -86,5 +86,34 @@ namespace AByteOf熊猫
                 MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        bool mostrarContra = false;
+        private void btnVerContraR_Click(object sender, EventArgs e)
+        {
+            mostrarContra = !mostrarContra;
+            txtContraseñaRe.UseSystemPasswordChar = !mostrarContra;
+            if (mostrarContra)
+            {
+                btnVerContraR.Image = Properties.Resources.ojoabierto;
+            }
+            else
+            {
+                btnVerContraR.Image = Properties.Resources.ojoCerrado;
+            }
+
+        }
+
+        private void btnVerContraConfirmarR_Click(object sender, EventArgs e)
+        {
+            mostrarContra = !mostrarContra;
+            txtConfirmarContraseñaRe.UseSystemPasswordChar = !mostrarContra;
+            if (mostrarContra)
+            {
+                btnVerContraConfirmarR.Image = Properties.Resources.ojoabierto;
+            }
+            else
+            {
+                btnVerContraConfirmarR.Image = Properties.Resources.ojoCerrado;
+            }
+        }
     }
 }
