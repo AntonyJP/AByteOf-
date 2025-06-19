@@ -28,64 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Log_in));
+
             panel1 = new Panel();
+            pcbLogo = new PictureBox();
             panel2 = new Panel();
+            btnClose = new Button();
             panelMenu = new Panel();
-            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbLogo).BeginInit();
+            panel2.SuspendLayout();
+
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.AppWorkspace;
-            panel1.Controls.Add(pictureBox1);
+
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(pcbLogo);
             panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 30);
+            panel1.Location = new Point(0, 25);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(250, 420);
+            panel1.Size = new Size(450, 525);
             panel1.TabIndex = 0;
-            panel1.Paint += panel1_Paint;
+            // 
+            // pcbLogo
+            // 
+            pcbLogo.Location = new Point(-57, 4);
+            pcbLogo.Margin = new Padding(3, 2, 3, 2);
+            pcbLogo.Name = "pcbLogo";
+            pcbLogo.Size = new Size(560, 463);
+            pcbLogo.SizeMode = PictureBoxSizeMode.StretchImage;
+            pcbLogo.TabIndex = 0;
+            pcbLogo.TabStop = false;
             // 
             // panel2
             // 
-            panel2.BackColor = SystemColors.AppWorkspace;
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(btnClose);
             panel2.Dock = DockStyle.Top;
+            panel2.ImeMode = ImeMode.NoControl;
             panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(800, 30);
+            panel2.Size = new Size(900, 25);
             panel2.TabIndex = 1;
+            // 
+            // btnClose
+            // 
+            btnClose.BackColor = Color.Transparent;
+            btnClose.Location = new Point(866, 2);
+            btnClose.Margin = new Padding(3, 2, 3, 2);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(34, 18);
+            btnClose.TabIndex = 0;
+            btnClose.Text = "X";
+            btnClose.UseVisualStyleBackColor = false;
+            btnClose.Click += btnClose_Click;
             // 
             // panelMenu
             // 
-            panelMenu.Location = new Point(246, 30);
+            panelMenu.BackColor = Color.Lime;
+            panelMenu.Dock = DockStyle.Right;
+            panelMenu.Location = new Point(450, 25);
+            panelMenu.Margin = new Padding(3, 2, 3, 2);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(554, 420);
+            panelMenu.Size = new Size(450, 525);
             panelMenu.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(60, 55);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(137, 121);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // Log_in
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(900, 550);
             Controls.Add(panelMenu);
             Controls.Add(panel1);
             Controls.Add(panel2);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Log_in";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Log_in";
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbLogo).EndInit();
+            panel2.ResumeLayout(false);
+
             ResumeLayout(false);
         }
 
@@ -94,6 +120,8 @@
         private Panel panel1;
         private Panel panel2;
         private Panel panelMenu;
-        private PictureBox pictureBox1;
+        private PictureBox pcbLogo;
+        private Button btnClose;
+
     }
 }

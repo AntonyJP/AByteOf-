@@ -59,5 +59,27 @@ namespace AByteOf熊猫.Properties {
                 resourceCulture = value;
             }
         }
+
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojoabierto {
+            get {
+                object obj = ResourceManager.GetObject("ojoabierto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojoCerrado {
+            get {
+                object obj = ResourceManager.GetObject("ojoCerrado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
     }
 }
