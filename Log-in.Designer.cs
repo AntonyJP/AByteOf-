@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             panel1 = new Panel();
             pcbLogo = new PictureBox();
             panel2 = new Panel();
@@ -36,10 +37,12 @@
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pcbLogo).BeginInit();
             panel2.SuspendLayout();
+
             SuspendLayout();
             // 
             // panel1
             // 
+
             panel1.BackColor = Color.White;
             panel1.Controls.Add(pcbLogo);
             panel1.Dock = DockStyle.Left;
@@ -108,6 +111,7 @@
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pcbLogo).EndInit();
             panel2.ResumeLayout(false);
+
             ResumeLayout(false);
         }
 
@@ -118,5 +122,6 @@
         private Panel panelMenu;
         private PictureBox pcbLogo;
         private Button btnClose;
+
     }
 }

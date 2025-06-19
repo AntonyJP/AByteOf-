@@ -59,6 +59,7 @@ namespace AByteOf熊猫.Properties {
                 resourceCulture = value;
             }
         }
+
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -79,5 +80,6 @@ namespace AByteOf熊猫.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
     }
 }
