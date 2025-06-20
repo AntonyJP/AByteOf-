@@ -20,12 +20,34 @@ namespace AByteOf熊猫
         {
             InitializeComponent();
             formPrincipal = form;
+            this.Load += FormRegistrarse_Load;
+        }
+        private void FormRegistrarse_Load(object sender, EventArgs e)
+        {
+            // Mostrar la imagen del ojo btncontra
+
+            btnVerContrai.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
+            btnVerContrai.Text = "";
+            btnVerContrai.ImageAlign = ContentAlignment.MiddleCenter;
+            
+            
+
+        }
+        private Image RedimensionarImagen(Image img, int ancho, int alto)
+        {
+            Bitmap bmp = new Bitmap(ancho, alto);
+            using (Graphics g = Graphics.FromImage(bmp))
+            {
+                g.DrawImage(img, 0, 0, ancho, alto);
+            }
+            return bmp;
         }
 
         private void btnRegresarI_Click(object sender, EventArgs e)
         {
             formPrincipal.CargarForm(new FormInicio(formPrincipal));
         }
+
         bool mostrarContra = false;
         private void btnVerContrai_Click(object sender, EventArgs e)
         {
@@ -33,11 +55,11 @@ namespace AByteOf熊猫
             txtContraseñai.UseSystemPasswordChar = !mostrarContra;
             if (mostrarContra)
             {
-               
+                btnVerContrai.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
             }
             else
             {
-               
+                btnVerContrai.Image = RedimensionarImagen(Properties.Resources.ojoCerrado, 40, 30);
             }
         }
 

@@ -152,26 +152,24 @@
             // 
             // btnVerContraR
             // 
-            btnVerContraR.BackColor = Color.Transparent;
-            btnVerContraR.BackgroundImage = Image.FromFile(ojoabierto);
+            btnVerContraR.BackColor = Color.FromArgb(125, 250, 90);
             btnVerContraR.BackgroundImageLayout = ImageLayout.Zoom;
             btnVerContraR.ForeColor = Color.Transparent;
             btnVerContraR.Location = new Point(387, 381);
             btnVerContraR.Name = "btnVerContraR";
-            btnVerContraR.Size = new Size(36, 29);
+            btnVerContraR.Size = new Size(40, 30);
             btnVerContraR.TabIndex = 7;
             btnVerContraR.UseVisualStyleBackColor = false;
             btnVerContraR.Click += btnVerContraR_Click;
             // 
             // btnVerContraConfirmarR
             // 
-            btnVerContraConfirmarR.BackColor = Color.Transparent;
-            btnVerContraConfirmarR.Image = Image.FromFile(ojoabierto);
+            btnVerContraConfirmarR.BackColor = Color.FromArgb(125, 250, 90);
             btnVerContraConfirmarR.BackgroundImageLayout = ImageLayout.Zoom;
             btnVerContraConfirmarR.ForeColor = Color.Transparent;
             btnVerContraConfirmarR.Location = new Point(387, 461);
             btnVerContraConfirmarR.Name = "btnVerContraConfirmarR";
-            btnVerContraConfirmarR.Size = new Size(36, 29);
+            btnVerContraConfirmarR.Size = new Size(40, 30);
             btnVerContraConfirmarR.TabIndex = 8;
             btnVerContraConfirmarR.UseVisualStyleBackColor = false;
             btnVerContraConfirmarR.Click += btnVerContraConfirmarR_Click;

@@ -20,7 +20,9 @@ namespace AByteOf熊猫
         public FormRegistrarse(Log_in form)
         {
             InitializeComponent();
+            this.Load += FormRegistrarse_Load;
             formPrincipal = form;
+           
             
         }
 
@@ -89,6 +91,29 @@ namespace AByteOf熊猫
                 MessageBox.Show($"Error: {ex.Message}\nStackTrace: {ex.StackTrace}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        private void FormRegistrarse_Load(object sender, EventArgs e)
+        {
+            // Mostrar la imagen del ojo btncontra
+           
+            btnVerContraR.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
+            btnVerContraR.Text = ""; 
+            btnVerContraR.ImageAlign = ContentAlignment.MiddleCenter;
+            //Mostrar  imagen del ojo btnconfirmarcontra
+           
+            btnVerContraConfirmarR.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
+            btnVerContraConfirmarR.Text = "";
+            btnVerContraConfirmarR.ImageAlign = ContentAlignment.MiddleCenter;
+
+        }
+        private Image RedimensionarImagen(Image img, int ancho, int alto)
+        {
+            Bitmap bmp = new Bitmap(ancho, alto);
+            using (Graphics g = Graphics.FromImage(bmp))
+            {
+                g.DrawImage(img, 0, 0, ancho, alto);
+            }
+            return bmp;
+        }
         bool mostrarContra = false;
         private void btnVerContraR_Click(object sender, EventArgs e)
         {
@@ -96,11 +121,11 @@ namespace AByteOf熊猫
             txtContraseñaRe.UseSystemPasswordChar = !mostrarContra;
             if (mostrarContra)
             {
-                
+                btnVerContraR.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
             }
             else
             {
-                
+                btnVerContraR.Image = RedimensionarImagen(Properties.Resources.ojoCerrado, 40, 30);
             }
 
         }
@@ -111,11 +136,11 @@ namespace AByteOf熊猫
             txtConfirmarContraseñaRe.UseSystemPasswordChar = !mostrarContra;
             if (mostrarContra)
             {
-                
+                btnVerContraConfirmarR.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
             }
             else
             {
-                
+                btnVerContraConfirmarR.Image = RedimensionarImagen(Properties.Resources.ojoCerrado, 40, 30);
             }
         }
     }
