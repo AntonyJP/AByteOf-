@@ -57,11 +57,12 @@
             // 
             // btnRegresarR
             // 
-            btnRegresarR.Location = new Point(32, 632);
+            btnRegresarR.BackgroundImageLayout = ImageLayout.Zoom;
+            btnRegresarR.Location = new Point(32, 604);
             btnRegresarR.Name = "btnRegresarR";
-            btnRegresarR.Size = new Size(91, 43);
+            btnRegresarR.Size = new Size(83, 56);
             btnRegresarR.TabIndex = 1;
-            btnRegresarR.Text = "Regresar";
+            btnRegresarR.Text = "Back";
             btnRegresarR.UseVisualStyleBackColor = true;
             btnRegresarR.Click += btnRegresarR_Click;
             // 
