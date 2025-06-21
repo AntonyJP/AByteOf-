@@ -69,9 +69,6 @@ namespace AByteOf熊猫
                 var response = await client.PostAsync("api/users/register", jsonContent);
                 var responseContent = await response.Content.ReadAsStringAsync();
 
-                // Mostrar detalles de la respuesta para depuración
-                MessageBox.Show($"Código de estado: {(int)response.StatusCode}\nRespuesta: {responseContent}", "Depuración");
-
                 if (response.IsSuccessStatusCode)
                 {
                     MessageBox.Show(responseContent, "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -81,10 +78,7 @@ namespace AByteOf熊猫
                     txtContraseñaRe.Text = "";
                     txtConfirmarContraseñaRe.Text = "";
                 }
-                else
-                {
-                    MessageBox.Show($"Error: {responseContent}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                
             }
             catch (Exception ex)
             {

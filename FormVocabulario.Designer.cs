@@ -28,35 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            dgvPalabras = new DataGridView();
+            lblIndicacion = new Label();
+            txtPalabraAFiltrar = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)dgvPalabras).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // dgvPalabras
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(274, 200);
-            label1.Name = "label1";
-            label1.Size = new Size(226, 32);
-            label1.TabIndex = 0;
-            label1.Text = "VOCABULARIO";
+            dgvPalabras.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvPalabras.Location = new Point(34, 64);
+            dgvPalabras.Name = "dgvPalabras";
+            dgvPalabras.Size = new Size(650, 348);
+            dgvPalabras.TabIndex = 1;
+            // 
+            // lblIndicacion
+            // 
+            lblIndicacion.AutoSize = true;
+            lblIndicacion.Location = new Point(203, 34);
+            lblIndicacion.Name = "lblIndicacion";
+            lblIndicacion.Size = new Size(41, 15);
+            lblIndicacion.TabIndex = 2;
+            lblIndicacion.Text = "Busca:";
+            // 
+            // txtPalabraAFiltrar
+            // 
+            txtPalabraAFiltrar.Location = new Point(276, 31);
+            txtPalabraAFiltrar.Name = "txtPalabraAFiltrar";
+            txtPalabraAFiltrar.Size = new Size(323, 23);
+            txtPalabraAFiltrar.TabIndex = 3;
+            txtPalabraAFiltrar.TextChanged += txtPalabraAFiltrar_TextChanged;
             // 
             // FormVocabulario
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            ClientSize = new Size(713, 446);
+            Controls.Add(txtPalabraAFiltrar);
+            Controls.Add(lblIndicacion);
+            Controls.Add(dgvPalabras);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormVocabulario";
             Text = "FormVocabulario";
             Load += FormVocabulario_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvPalabras).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private DataGridView dgvPalabras;
+        private Label lblIndicacion;
+        private TextBox txtPalabraAFiltrar;
     }
 }

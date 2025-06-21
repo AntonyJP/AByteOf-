@@ -15,6 +15,9 @@ namespace AByteOf熊猫
         public FormMenuLearn()
         {
             InitializeComponent();
+
+            string rutaLogo = Path.Combine(Application.StartupPath, "Assets", "A byte of.png");
+            pcbLogo.Image = Image.FromFile(rutaLogo);
         }
     }
 }

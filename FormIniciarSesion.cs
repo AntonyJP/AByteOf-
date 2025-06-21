@@ -66,48 +66,53 @@ namespace AByteOf熊猫
         private async void btnIniciarCuentaApp_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtUsuarioOCorreoi.Text) || string.IsNullOrWhiteSpace(txtContraseñai.Text))
-            {
-                MessageBox.Show("El correo o usuario y la contraseña son obligatorios.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+    {
+        MessageBox.Show("El correo o usuario y la contraseña son obligatorios.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        return;
+    }
 
-            var usuario = new Usuarios
-            {
-                Correo = txtUsuarioOCorreoi.Text,
-                Contrasena = txtContraseñai.Text
-            };
+    var usuario = new Usuarios
+    {
+        Correo = txtUsuarioOCorreoi.Text,
+        Contrasena = txtContraseñai.Text
+    };
 
-            try
-            {
-                var jsonContent = new StringContent(
-                    JsonConvert.SerializeObject(usuario),
-                    Encoding.UTF8,
-                    "application/json"
-                );
-                MessageBox.Show("JSON enviado: " + JsonConvert.SerializeObject(usuario), "Depuración");
+    try
+    {
+        var jsonContent = new StringContent(
+            JsonConvert.SerializeObject(usuario),
+            Encoding.UTF8,
+            "application/json"
+        );
 
-                var response = await client.PostAsync("api/users/login", jsonContent);
-                var responseContent = await response.Content.ReadAsStringAsync();
+        var response = await client.PostAsync("api/users/login", jsonContent);
+        var responseContent = await response.Content.ReadAsStringAsync();
 
-                MessageBox.Show($"Código de estado: {(int)response.StatusCode}\nRespuesta: {responseContent}", "Depuración");
+        MessageBox.Show($"Código de estado: {(int)response.StatusCode}\nRespuesta: {responseContent}", "Depuración");
 
-                if (response.IsSuccessStatusCode)
-                {
-                    MessageBox.Show(responseContent, "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    FormAcceso formAcceso = new FormAcceso();
-                    formAcceso.Show();
-                    this.Close();
-                    if (formPrincipal != null) formPrincipal.Close(); // Opcional: cerrar el formulario padre si es necesario
-                }
-                else
-                {
-                    MessageBox.Show($"Error: {responseContent}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}\nStackTrace: {ex.StackTrace}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+        if (response.IsSuccessStatusCode)
+        {
+            // Parsear la respuesta JSON
+            dynamic responseObject = JsonConvert.DeserializeObject(responseContent);
+            string message = responseObject.message;
+            int idUsuario = responseObject.idUsuario;
+
+            // Almacenar el idUsuario en AppState
+            AppState.IdUsuario = idUsuario;
+
+            MessageBox.Show($"{message} (ID: {idUsuario})", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            // Abrir FormAcceso pasando el idUsuario
+            FormAcceso formAcceso = new FormAcceso(idUsuario); // Ajustar el constructor de FormAcceso
+            formAcceso.Show();
+            this.Close();
+            if (formPrincipal != null) formPrincipal.Close(); // Opcional: cerrar el formulario padre
+        }
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show($"Error: {ex.Message}\nStackTrace: {ex.StackTrace}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+    }
         }
     }
 }

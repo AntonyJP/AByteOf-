@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HSK1>
+  <Palabra>
+    <IdPalabra>1</IdPalabra>
+    <Caracter>爱</Caracter>
+    <Pinyin>ài</Pinyin>
+    <Significado>amar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 爱?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>2</IdPalabra>
+    <Caracter>八</Caracter>
+    <Pinyin>bā</Pinyin>
+    <Significado>ocho</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 八?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>3</IdPalabra>
+    <Caracter>爸爸</Caracter>
+    <Pinyin>bàba</Pinyin>
+    <Significado>papá</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 爸爸?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>4</IdPalabra>
+    <Caracter>杯子</Caracter>
+    <Pinyin>bēizi</Pinyin>
+    <Significado>taza</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 杯子?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>5</IdPalabra>
+    <Caracter>北京</Caracter>
+    <Pinyin>běijīng</Pinyin>
+    <Significado>Pekín</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 北京?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>6</IdPalabra>
+    <Caracter>本</Caracter>
+    <Pinyin>běn</Pinyin>
+    <Significado>este (clasificador para libros, revistas)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 本?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>7</IdPalabra>
+    <Caracter>不</Caracter>
+    <Pinyin>bù</Pinyin>
+    <Significado>no</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 不?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>8</IdPalabra>
+    <Caracter>不客气</Caracter>
+    <Pinyin>bùkèqì</Pinyin>
+    <Significado>de nada, mal educado</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 不客气?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>9</IdPalabra>
+    <Caracter>菜</Caracter>
+    <Pinyin>cài</Pinyin>
+    <Significado>verduras, plato (dish)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 菜?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>10</IdPalabra>
+    <Caracter>茶</Caracter>
+    <Pinyin>chá</Pinyin>
+    <Significado>té</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 茶?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>11</IdPalabra>
+    <Caracter>吃</Caracter>
+    <Pinyin>chī</Pinyin>
+    <Significado>comer</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 吃?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>12</IdPalabra>
+    <Caracter>出租车</Caracter>
+    <Pinyin>chūzūchē</Pinyin>
+    <Significado>taxi</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 出租车?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>13</IdPalabra>
+    <Caracter>打电话</Caracter>
+    <Pinyin>dǎdiànhuà</Pinyin>
+    <Significado>llamar por teléfono</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 打电话?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>14</IdPalabra>
+    <Caracter>大</Caracter>
+    <Pinyin>dà</Pinyin>
+    <Significado>grande</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 大?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>15</IdPalabra>
+    <Caracter>的</Caracter>
+    <Pinyin>de</Pinyin>
+    <Significado>de (partícula)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 的?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>16</IdPalabra>
+    <Caracter>点</Caracter>
+    <Pinyin>diǎn</Pinyin>
+    <Significado>hora</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 点?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>17</IdPalabra>
+    <Caracter>电脑</Caracter>
+    <Pinyin>diànnǎo</Pinyin>
+    <Significado>computadora</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 电脑?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>18</IdPalabra>
+    <Caracter>电视</Caracter>
+    <Pinyin>diànshì</Pinyin>
+    <Significado>televisión</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 电视?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>19</IdPalabra>
+    <Caracter>电影</Caracter>
+    <Pinyin>diànyǐng</Pinyin>
+    <Significado>película</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 电影?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>20</IdPalabra>
+    <Caracter>东西</Caracter>
+    <Pinyin>dōngxi</Pinyin>
+    <Significado>cosas, objetos</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 东西?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>21</IdPalabra>
+    <Caracter>都</Caracter>
+    <Pinyin>dōu</Pinyin>
+    <Significado>todos, ambos</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 都?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>22</IdPalabra>
+    <Caracter>读</Caracter>
+    <Pinyin>dú</Pinyin>
+    <Significado>leer</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 读?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>23</IdPalabra>
+    <Caracter>对不起</Caracter>
+    <Pinyin>duìbùqǐ</Pinyin>
+    <Significado>lo siento, perdón</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 对不起?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>24</IdPalabra>
+    <Caracter>多</Caracter>
+    <Pinyin>duō</Pinyin>
+    <Significado>mucho, ¿cuánto? ¿cuántos?</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 多?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>25</IdPalabra>
+    <Caracter>多少</Caracter>
+    <Pinyin>duōshǎo</Pinyin>
+    <Significado>cuánto</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 多少?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>26</IdPalabra>
+    <Caracter>儿子</Caracter>
+    <Pinyin>érzi</Pinyin>
+    <Significado>hijo</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 儿子?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>27</IdPalabra>
+    <Caracter>二</Caracter>
+    <Pinyin>èr</Pinyin>
+    <Significado>dos</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 二?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>28</IdPalabra>
+    <Caracter>饭店</Caracter>
+    <Pinyin>fàndiàn</Pinyin>
+    <Significado>hotel, restaurante</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 饭店?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>29</IdPalabra>
+    <Caracter>飞机</Caracter>
+    <Pinyin>fēijī</Pinyin>
+    <Significado>avión</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 飞机?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>30</IdPalabra>
+    <Caracter>分钟</Caracter>
+    <Pinyin>fēnzhōng</Pinyin>
+    <Significado>minuto</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 分钟?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>31</IdPalabra>
+    <Caracter>高兴</Caracter>
+    <Pinyin>gāoxìng</Pinyin>
+    <Significado>feliz, satisfecho</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 高兴?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>32</IdPalabra>
+    <Caracter>个</Caracter>
+    <Pinyin>gè</Pinyin>
+    <Significado>la (clasificador de uso general)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 个?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>33</IdPalabra>
+    <Caracter>工作</Caracter>
+    <Pinyin>gōngzuò</Pinyin>
+    <Significado>trabajo, trabajar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 工作?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>34</IdPalabra>
+    <Caracter>狗</Caracter>
+    <Pinyin>gǒu</Pinyin>
+    <Significado>perro</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 狗?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>35</IdPalabra>
+    <Caracter>汉语</Caracter>
+    <Pinyin>hànyǔ</Pinyin>
+    <Significado>idioma chino</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 汉语?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>36</IdPalabra>
+    <Caracter>好</Caracter>
+    <Pinyin>hǎo</Pinyin>
+    <Significado>bien, bueno, OK</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 好?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>37</IdPalabra>
+    <Caracter>号</Caracter>
+    <Pinyin>hào</Pinyin>
+    <Significado>número</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 号?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>38</IdPalabra>
+    <Caracter>喝</Caracter>
+    <Pinyin>hē</Pinyin>
+    <Significado>beber</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 喝?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>39</IdPalabra>
+    <Caracter>和</Caracter>
+    <Pinyin>hé</Pinyin>
+    <Significado>y</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 和?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>40</IdPalabra>
+    <Caracter>很</Caracter>
+    <Pinyin>hěn</Pinyin>
+    <Significado>muy</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 很?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>41</IdPalabra>
+    <Caracter>后面</Caracter>
+    <Pinyin>hòumiàn</Pinyin>
+    <Significado>detrás, después</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 后面?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>42</IdPalabra>
+    <Caracter>回</Caracter>
+    <Pinyin>huí</Pinyin>
+    <Significado>volver</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 回?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>43</IdPalabra>
+    <Caracter>会</Caracter>
+    <Pinyin>huì</Pinyin>
+    <Significado>reunión, saber hacer, poder</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 会?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>44</IdPalabra>
+    <Caracter>几</Caracter>
+    <Pinyin>jǐ</Pinyin>
+    <Significado>cuántos</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 几?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>45</IdPalabra>
+    <Caracter>家</Caracter>
+    <Pinyin>jiā</Pinyin>
+    <Significado>familia, hogar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 家?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>46</IdPalabra>
+    <Caracter>叫</Caracter>
+    <Pinyin>jiào</Pinyin>
+    <Significado>llamar(se)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 叫?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>47</IdPalabra>
+    <Caracter>今天</Caracter>
+    <Pinyin>jīntiān</Pinyin>
+    <Significado>hoy</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 今天?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>48</IdPalabra>
+    <Caracter>九</Caracter>
+    <Pinyin>jiǔ</Pinyin>
+    <Significado>nueve</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 九?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>49</IdPalabra>
+    <Caracter>开</Caracter>
+    <Pinyin>kāi</Pinyin>
+    <Significado>empezar, abrir, encender</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 开?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>50</IdPalabra>
+    <Caracter>看</Caracter>
+    <Pinyin>kàn</Pinyin>
+    <Significado>mirar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 看?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>51</IdPalabra>
+    <Caracter>看见</Caracter>
+    <Pinyin>kànjiàn</Pinyin>
+    <Significado>ver</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 看见?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>52</IdPalabra>
+    <Caracter>块</Caracter>
+    <Pinyin>kuài</Pinyin>
+    <Significado>bloque, trozo</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 块?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>53</IdPalabra>
+    <Caracter>来</Caracter>
+    <Pinyin>lái</Pinyin>
+    <Significado>venir</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 来?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>54</IdPalabra>
+    <Caracter>老师</Caracter>
+    <Pinyin>lǎoshī</Pinyin>
+    <Significado>profesor</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 老师?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>55</IdPalabra>
+    <Caracter>了</Caracter>
+    <Pinyin>le</Pinyin>
+    <Significado>la (partícula de aspecto, partícula modal)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 了?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>56</IdPalabra>
+    <Caracter>冷</Caracter>
+    <Pinyin>lěng</Pinyin>
+    <Significado>frío</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 冷?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>57</IdPalabra>
+    <Caracter>里</Caracter>
+    <Pinyin>lǐ</Pinyin>
+    <Significado>dentro, interior, medida china (2 lǐ = 1 Km)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 里?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>58</IdPalabra>
+    <Caracter>六</Caracter>
+    <Pinyin>liù</Pinyin>
+    <Significado>seis</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 六?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>59</IdPalabra>
+    <Caracter>妈妈</Caracter>
+    <Pinyin>māmā</Pinyin>
+    <Significado>mamá</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 妈妈?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>60</IdPalabra>
+    <Caracter>吗</Caracter>
+    <Pinyin>ma</Pinyin>
+    <Significado>lo (partícula interrogativa)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 吗?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>61</IdPalabra>
+    <Caracter>买</Caracter>
+    <Pinyin>mǎi</Pinyin>
+    <Significado>comprar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 买?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>62</IdPalabra>
+    <Caracter>猫</Caracter>
+    <Pinyin>māo</Pinyin>
+    <Significado>gato</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 猫?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>63</IdPalabra>
+    <Caracter>没关系</Caracter>
+    <Pinyin>méiguānxì</Pinyin>
+    <Significado>no importa</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 没关系?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>64</IdPalabra>
+    <Caracter>没有</Caracter>
+    <Pinyin>méiyǒu</Pinyin>
+    <Significado>no, no haber</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 没有?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>65</IdPalabra>
+    <Caracter>米饭</Caracter>
+    <Pinyin>mǐfàn</Pinyin>
+    <Significado>arroz</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 米饭?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>66</IdPalabra>
+    <Caracter>名字</Caracter>
+    <Pinyin>míngzì</Pinyin>
+    <Significado>nombre</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 名字?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>67</IdPalabra>
+    <Caracter>明天</Caracter>
+    <Pinyin>míngtiān</Pinyin>
+    <Significado>mañana</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 明天?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>68</IdPalabra>
+    <Caracter>哪</Caracter>
+    <Pinyin>nǎ</Pinyin>
+    <Significado>cuál, qué, dónde</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 哪?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>69</IdPalabra>
+    <Caracter>哪儿</Caracter>
+    <Pinyin>nǎ'er</Pinyin>
+    <Significado>dónde</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 哪儿?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>70</IdPalabra>
+    <Caracter>那</Caracter>
+    <Pinyin>nà</Pinyin>
+    <Significado>ése, aquél</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 那?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>71</IdPalabra>
+    <Caracter>呢</Caracter>
+    <Pinyin>ne</Pinyin>
+    <Significado>lo (partícula interrogativa)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 呢?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>72</IdPalabra>
+    <Caracter>能</Caracter>
+    <Pinyin>néng</Pinyin>
+    <Significado>poder, ser capaz de</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 能?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>73</IdPalabra>
+    <Caracter>你</Caracter>
+    <Pinyin>nǐ</Pinyin>
+    <Significado>tú</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 你?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>74</IdPalabra>
+    <Caracter>年</Caracter>
+    <Pinyin>nián</Pinyin>
+    <Significado>año</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 年?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>75</IdPalabra>
+    <Caracter>女儿</Caracter>
+    <Pinyin>nǚ'ér</Pinyin>
+    <Significado>hija</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 女儿?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>76</IdPalabra>
+    <Caracter>朋友</Caracter>
+    <Pinyin>péngyǒu</Pinyin>
+    <Significado>amigo</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 朋友?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>77</IdPalabra>
+    <Caracter>漂亮</Caracter>
+    <Pinyin>piàoliang</Pinyin>
+    <Significado>guapa (chica), bonito (cosas)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 漂亮?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>78</IdPalabra>
+    <Caracter>苹果</Caracter>
+    <Pinyin>píngguǒ</Pinyin>
+    <Significado>manzana</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 苹果?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>79</IdPalabra>
+    <Caracter>七</Caracter>
+    <Pinyin>qī</Pinyin>
+    <Significado>siete</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 七?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>80</IdPalabra>
+    <Caracter>前面</Caracter>
+    <Pinyin>qiánmiàn</Pinyin>
+    <Significado>frente, delante</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 前面?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>81</IdPalabra>
+    <Caracter>钱</Caracter>
+    <Pinyin>qián</Pinyin>
+    <Significado>dinero</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 钱?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>82</IdPalabra>
+    <Caracter>请</Caracter>
+    <Pinyin>qǐng</Pinyin>
+    <Significado>por favor, invitar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 请?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>83</IdPalabra>
+    <Caracter>去</Caracter>
+    <Pinyin>qù</Pinyin>
+    <Significado>ir</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 去?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>84</IdPalabra>
+    <Caracter>热</Caracter>
+    <Pinyin>rè</Pinyin>
+    <Significado>calor, caliente</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 热?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>85</IdPalabra>
+    <Caracter>人</Caracter>
+    <Pinyin>rén</Pinyin>
+    <Significado>gente, persona</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 人?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>86</IdPalabra>
+    <Caracter>认识</Caracter>
+    <Pinyin>rènshi</Pinyin>
+    <Significado>conocer (a alguien)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 认识?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>87</IdPalabra>
+    <Caracter>三</Caracter>
+    <Pinyin>sān</Pinyin>
+    <Significado>tres</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 三?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>88</IdPalabra>
+    <Caracter>商店</Caracter>
+    <Pinyin>shāngdiàn</Pinyin>
+    <Significado>tienda</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 商店?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>89</IdPalabra>
+    <Caracter>上</Caracter>
+    <Pinyin>shàng</Pinyin>
+    <Significado>encima, pasado, subir</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 上?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>90</IdPalabra>
+    <Caracter>上午</Caracter>
+    <Pinyin>shàngwǔ</Pinyin>
+    <Significado>mañana, por la mañana</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 上午?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>91</IdPalabra>
+    <Caracter>少</Caracter>
+    <Pinyin>shǎo</Pinyin>
+    <Significado>poco</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 少?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>92</IdPalabra>
+    <Caracter>谁</Caracter>
+    <Pinyin>shéi</Pinyin>
+    <Significado>quién, a quién</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 谁?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>93</IdPalabra>
+    <Caracter>什么</Caracter>
+    <Pinyin>shénme</Pinyin>
+    <Significado>qué</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 什么?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>94</IdPalabra>
+    <Caracter>十</Caracter>
+    <Pinyin>shí</Pinyin>
+    <Significado>diez</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 十?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>95</IdPalabra>
+    <Caracter>时候</Caracter>
+    <Pinyin>shíhou</Pinyin>
+    <Significado>tiempo, momento, cuándo</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 时候?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>96</IdPalabra>
+    <Caracter>是</Caracter>
+    <Pinyin>shì</Pinyin>
+    <Significado>ser</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 是?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>97</IdPalabra>
+    <Caracter>书</Caracter>
+    <Pinyin>shū</Pinyin>
+    <Significado>libro</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 书?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>98</IdPalabra>
+    <Caracter>水</Caracter>
+    <Pinyin>shuǐ</Pinyin>
+    <Significado>agua</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 水?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>99</IdPalabra>
+    <Caracter>水果</Caracter>
+    <Pinyin>shuǐguǒ</Pinyin>
+    <Significado>fruta</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 水果?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>100</IdPalabra>
+    <Caracter>睡觉</Caracter>
+    <Pinyin>shuìjiào</Pinyin>
+    <Significado>dormir, acostarse</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 睡觉?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>101</IdPalabra>
+    <Caracter>说</Caracter>
+    <Pinyin>shuō</Pinyin>
+    <Significado>hablar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 说?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>102</IdPalabra>
+    <Caracter>四</Caracter>
+    <Pinyin>sì</Pinyin>
+    <Significado>cuatro</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 四?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>103</IdPalabra>
+    <Caracter>岁</Caracter>
+    <Pinyin>suì</Pinyin>
+    <Significado>años (edad)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 岁?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>104</IdPalabra>
+    <Caracter>他</Caracter>
+    <Pinyin>tā</Pinyin>
+    <Significado>él</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 他?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>105</IdPalabra>
+    <Caracter>她</Caracter>
+    <Pinyin>tā</Pinyin>
+    <Significado>ella</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 她?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>106</IdPalabra>
+    <Caracter>太</Caracter>
+    <Pinyin>tài</Pinyin>
+    <Significado>demasiado</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 太?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>107</IdPalabra>
+    <Caracter>天气</Caracter>
+    <Pinyin>tiānqì</Pinyin>
+    <Significado>tiempo atmosférico</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 天气?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>108</IdPalabra>
+    <Caracter>听</Caracter>
+    <Pinyin>tīng</Pinyin>
+    <Significado>escuchar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 听?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>109</IdPalabra>
+    <Caracter>同学</Caracter>
+    <Pinyin>tóngxué</Pinyin>
+    <Significado>compañero de clase</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 同学?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>110</IdPalabra>
+    <Caracter>喂</Caracter>
+    <Pinyin>wèi</Pinyin>
+    <Significado>hola (por teléfono), criar, alimentar, dar de comer</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 喂?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>111</IdPalabra>
+    <Caracter>我</Caracter>
+    <Pinyin>wǒ</Pinyin>
+    <Significado>yo, me, a mí</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 我?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>112</IdPalabra>
+    <Caracter>我们</Caracter>
+    <Pinyin>wǒmen</Pinyin>
+    <Significado>nosotros, a nosotros</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 我们?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>113</IdPalabra>
+    <Caracter>五</Caracter>
+    <Pinyin>wǔ</Pinyin>
+    <Significado>cinco</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 五?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>114</IdPalabra>
+    <Caracter>喜欢</Caracter>
+    <Pinyin>xǐhuan</Pinyin>
+    <Significado>gustar, preferir</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 喜欢?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>115</IdPalabra>
+    <Caracter>下</Caracter>
+    <Pinyin>xià</Pinyin>
+    <Significado>debajo, próximo, bajar</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 下?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>116</IdPalabra>
+    <Caracter>下午</Caracter>
+    <Pinyin>xiàwǔ</Pinyin>
+    <Significado>tarde, por la tarde</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 下午?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>117</IdPalabra>
+    <Caracter>下雨</Caracter>
+    <Pinyin>xiàyǔ</Pinyin>
+    <Significado>llover</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 下雨?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>118</IdPalabra>
+    <Caracter>先生</Caracter>
+    <Pinyin>xiānshēng</Pinyin>
+    <Significado>señor</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 先生?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>119</IdPalabra>
+    <Caracter>现在</Caracter>
+    <Pinyin>xiànzài</Pinyin>
+    <Significado>ahora</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 现在?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>120</IdPalabra>
+    <Caracter>想</Caracter>
+    <Pinyin>xiǎng</Pinyin>
+    <Significado>pensar, querer hacer algo</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 想?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>121</IdPalabra>
+    <Caracter>小</Caracter>
+    <Pinyin>xiǎo</Pinyin>
+    <Significado>pequeño</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 小?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>122</IdPalabra>
+    <Caracter>小姐</Caracter>
+    <Pinyin>xiǎojiě</Pinyin>
+    <Significado>señorita, chica joven</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 小姐?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>123</IdPalabra>
+    <Caracter>些</Caracter>
+    <Pinyin>xiē</Pinyin>
+    <Significado>algunos, unos pocos</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 些?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>124</IdPalabra>
+    <Caracter>写</Caracter>
+    <Pinyin>xiě</Pinyin>
+    <Significado>escribir</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 写?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>125</IdPalabra>
+    <Caracter>谢谢</Caracter>
+    <Pinyin>xièxiè</Pinyin>
+    <Significado>dar las gracias</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 谢谢?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>126</IdPalabra>
+    <Caracter>星期</Caracter>
+    <Pinyin>xīngqí</Pinyin>
+    <Significado>semana</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 星期?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>127</IdPalabra>
+    <Caracter>学生</Caracter>
+    <Pinyin>xuéshēng</Pinyin>
+    <Significado>estudiante</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 学生?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>128</IdPalabra>
+    <Caracter>学习</Caracter>
+    <Pinyin>xuéxí</Pinyin>
+    <Significado>estudiar, aprender</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 学习?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>129</IdPalabra>
+    <Caracter>学校</Caracter>
+    <Pinyin>xuéxiào</Pinyin>
+    <Significado>escuela</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 学校?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>130</IdPalabra>
+    <Caracter>一</Caracter>
+    <Pinyin>yī</Pinyin>
+    <Significado>uno</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 一?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>131</IdPalabra>
+    <Caracter>一点儿</Caracter>
+    <Pinyin>yīdiǎner</Pinyin>
+    <Significado>un poco</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 一点儿?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>132</IdPalabra>
+    <Caracter>衣服</Caracter>
+    <Pinyin>yīfú</Pinyin>
+    <Significado>ropa</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 衣服?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>133</IdPalabra>
+    <Caracter>医生</Caracter>
+    <Pinyin>yīshēng</Pinyin>
+    <Significado>médico</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 医生?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>134</IdPalabra>
+    <Caracter>医院</Caracter>
+    <Pinyin>yīyuàn</Pinyin>
+    <Significado>hospital</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 医院?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>135</IdPalabra>
+    <Caracter>椅子</Caracter>
+    <Pinyin>yǐzi</Pinyin>
+    <Significado>silla</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 椅子?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>136</IdPalabra>
+    <Caracter>有</Caracter>
+    <Pinyin>yǒu</Pinyin>
+    <Significado>tener</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 有?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>137</IdPalabra>
+    <Caracter>月</Caracter>
+    <Pinyin>yuè</Pinyin>
+    <Significado>mes, luna</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 月?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>138</IdPalabra>
+    <Caracter>再见</Caracter>
+    <Pinyin>zàijiàn</Pinyin>
+    <Significado>hasta luego</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 再见?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>139</IdPalabra>
+    <Caracter>在</Caracter>
+    <Pinyin>zài</Pinyin>
+    <Significado>estar (aquí, allí), estar (dentro, sobre, en)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 在?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>140</IdPalabra>
+    <Caracter>怎么</Caracter>
+    <Pinyin>zěnme</Pinyin>
+    <Significado>cómo (respuesta: explicación)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 怎么?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>141</IdPalabra>
+    <Caracter>怎么样</Caracter>
+    <Pinyin>zěnmeyàng</Pinyin>
+    <Significado>¿qué tal?, ¿cómo estás? (respuesta: adjetivo)</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 怎么样?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>142</IdPalabra>
+    <Caracter>这</Caracter>
+    <Pinyin>zhè</Pinyin>
+    <Significado>éste, ésta</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 这?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>143</IdPalabra>
+    <Caracter>中国</Caracter>
+    <Pinyin>zhōngguó</Pinyin>
+    <Significado>China</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 中国?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>144</IdPalabra>
+    <Caracter>中午</Caracter>
+    <Pinyin>zhōngwǔ</Pinyin>
+    <Significado>mediodía</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 中午?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>145</IdPalabra>
+    <Caracter>住</Caracter>
+    <Pinyin>zhù</Pinyin>
+    <Significado>vivir</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 住?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>146</IdPalabra>
+    <Caracter>桌子</Caracter>
+    <Pinyin>zhuōzi</Pinyin>
+    <Significado>mesa</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 桌子?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>147</IdPalabra>
+    <Caracter>字</Caracter>
+    <Pinyin>zì</Pinyin>
+    <Significado>carácter</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 字?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>148</IdPalabra>
+    <Caracter>昨天</Caracter>
+    <Pinyin>zuótiān</Pinyin>
+    <Significado>ayer</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 昨天?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>149</IdPalabra>
+    <Caracter>坐</Caracter>
+    <Pinyin>zuò</Pinyin>
+    <Significado>sentarse</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 坐?</Actividad1>
+  </Palabra>
+  <Palabra>
+    <IdPalabra>150</IdPalabra>
+    <Caracter>做</Caracter>
+    <Pinyin>zuò</Pinyin>
+    <Significado>hacer</Significado>
+    <Estado>0</Estado>
+    <VecesCorrectas>0</VecesCorrectas>
+    <Actividad1>¿Qué significa 做?</Actividad1>
+  </Palabra>
+</HSK1>

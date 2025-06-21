@@ -30,101 +30,118 @@
         {
             panelBotones = new Panel();
             btnCerrarSesion = new Button();
-            picLogoMenu = new PictureBox();
             btnProgreso = new Button();
             btnPruebas = new Button();
             btnVocabulario = new Button();
+            pcbLogo = new PictureBox();
             panelMenu2 = new Panel();
             panelBotones.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)picLogoMenu).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbLogo).BeginInit();
             SuspendLayout();
             // 
             // panelBotones
             // 
-            panelBotones.BackColor = Color.FromArgb(128, 255, 128);
+            panelBotones.BackColor = Color.White;
             panelBotones.Controls.Add(btnCerrarSesion);
-            panelBotones.Controls.Add(picLogoMenu);
             panelBotones.Controls.Add(btnProgreso);
             panelBotones.Controls.Add(btnPruebas);
             panelBotones.Controls.Add(btnVocabulario);
             panelBotones.Dock = DockStyle.Left;
             panelBotones.Location = new Point(0, 0);
+            panelBotones.Margin = new Padding(3, 2, 3, 2);
             panelBotones.Name = "panelBotones";
-            panelBotones.Size = new Size(253, 595);
+            panelBotones.Size = new Size(221, 446);
             panelBotones.TabIndex = 0;
             // 
             // btnCerrarSesion
             // 
-            btnCerrarSesion.Location = new Point(0, 566);
+            btnCerrarSesion.BackColor = Color.FromArgb(128, 255, 128);
+            btnCerrarSesion.Location = new Point(47, 409);
+            btnCerrarSesion.Margin = new Padding(3, 2, 3, 2);
             btnCerrarSesion.Name = "btnCerrarSesion";
-            btnCerrarSesion.Size = new Size(131, 29);
+            btnCerrarSesion.Size = new Size(130, 26);
             btnCerrarSesion.TabIndex = 3;
             btnCerrarSesion.Text = "Cerrar Sesion";
-            btnCerrarSesion.UseVisualStyleBackColor = true;
+            btnCerrarSesion.UseVisualStyleBackColor = false;
             btnCerrarSesion.Click += btnCerrarSesion_Click;
-            // 
-            // picLogoMenu
-            // 
-            picLogoMenu.BackColor = Color.FromArgb(255, 128, 128);
-            picLogoMenu.Location = new Point(47, 282);
-            picLogoMenu.Name = "picLogoMenu";
-            picLogoMenu.Size = new Size(152, 142);
-            picLogoMenu.SizeMode = PictureBoxSizeMode.StretchImage;
-            picLogoMenu.TabIndex = 2;
-            picLogoMenu.TabStop = false;
-            picLogoMenu.Click += picLogoMenu_Click;
             // 
             // btnProgreso
             // 
+            btnProgreso.BackColor = Color.FromArgb(128, 255, 128);
             btnProgreso.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnProgreso.Location = new Point(0, 168);
+            btnProgreso.Location = new Point(0, 126);
+            btnProgreso.Margin = new Padding(3, 2, 3, 2);
             btnProgreso.Name = "btnProgreso";
-            btnProgreso.Size = new Size(250, 72);
+            btnProgreso.Size = new Size(221, 54);
             btnProgreso.TabIndex = 0;
             btnProgreso.Text = "PROGRESO";
-            btnProgreso.UseVisualStyleBackColor = true;
+            btnProgreso.UseVisualStyleBackColor = false;
             btnProgreso.Click += btnProgreso_Click;
             // 
             // btnPruebas
             // 
+            btnPruebas.BackColor = Color.FromArgb(128, 255, 128);
             btnPruebas.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPruebas.Location = new Point(0, 90);
+            btnPruebas.Location = new Point(0, 68);
+            btnPruebas.Margin = new Padding(3, 2, 3, 2);
             btnPruebas.Name = "btnPruebas";
-            btnPruebas.Size = new Size(250, 72);
+            btnPruebas.Size = new Size(221, 54);
             btnPruebas.TabIndex = 0;
             btnPruebas.Text = "PRUEBAS";
-            btnPruebas.UseVisualStyleBackColor = true;
+            btnPruebas.UseVisualStyleBackColor = false;
             btnPruebas.Click += btnPruebas_Click;
             // 
             // btnVocabulario
             // 
+            btnVocabulario.BackColor = Color.FromArgb(128, 255, 128);
             btnVocabulario.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnVocabulario.Location = new Point(0, 12);
+            btnVocabulario.Location = new Point(0, 9);
+            btnVocabulario.Margin = new Padding(3, 2, 3, 2);
             btnVocabulario.Name = "btnVocabulario";
-            btnVocabulario.Size = new Size(250, 72);
+            btnVocabulario.Size = new Size(221, 54);
             btnVocabulario.TabIndex = 0;
             btnVocabulario.Text = "VOCABULARIO";
-            btnVocabulario.UseVisualStyleBackColor = true;
+            btnVocabulario.UseVisualStyleBackColor = false;
             btnVocabulario.Click += btnVocabulario_Click;
+            // 
+            // pcbLogo
+            // 
+            pcbLogo.BackColor = Color.White;
+            pcbLogo.Location = new Point(0, 228);
+            pcbLogo.Margin = new Padding(3, 2, 3, 2);
+            pcbLogo.Name = "pcbLogo";
+            pcbLogo.Size = new Size(221, 166);
+            pcbLogo.SizeMode = PictureBoxSizeMode.StretchImage;
+            pcbLogo.TabIndex = 2;
+            pcbLogo.TabStop = false;
+            pcbLogo.Click += picLogoMenu_Click;
             // 
             // panelMenu2
             // 
-            panelMenu2.Location = new Point(256, 0);
+            panelMenu2.BackColor = Color.White;
+            panelMenu2.Dock = DockStyle.Right;
+            panelMenu2.Location = new Point(225, 0);
+            panelMenu2.Margin = new Padding(3, 2, 3, 2);
             panelMenu2.Name = "panelMenu2";
-            panelMenu2.Size = new Size(815, 595);
+            panelMenu2.Size = new Size(713, 446);
             panelMenu2.TabIndex = 1;
             // 
             // FormAcceso
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1072, 595);
+            ClientSize = new Size(938, 446);
             Controls.Add(panelMenu2);
+            Controls.Add(pcbLogo);
             Controls.Add(panelBotones);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormAcceso";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormAcceso";
+            Load += FormAcceso_Load;
             panelBotones.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)picLogoMenu).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbLogo).EndInit();
             ResumeLayout(false);
         }
 
@@ -135,7 +152,7 @@
         private Button btnProgreso;
         private Button btnPruebas;
         private Panel panelMenu2;
-        private PictureBox picLogoMenu;
+        private PictureBox pcbLogo;
         private Button btnCerrarSesion;
     }
 }

@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace AByteOf熊猫
 {
-    public partial class FormsPruebas : Form
+    public partial class FormPruebaDificil : Form
     {
-        public FormsPruebas()
+        private int modoSeleccionado;
+        public FormPruebaDificil()
         {
             InitializeComponent();
         }

@@ -15,6 +15,8 @@
     <None Remove="Assets\OjoAbierto.jpg" />
 
     <None Remove="Assets\OjoCerrado.jpg" />
+
+    <None Remove="Recursos\HSK1.xml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +27,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\OjoCerrado.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\HSK1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -47,6 +52,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ProgresoUsuarios\" />
   </ItemGroup>
 
 </Project>

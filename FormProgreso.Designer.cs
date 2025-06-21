@@ -28,34 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            lblTotal = new Label();
+            lblDominadas = new Label();
+            lblPorPracticar = new Label();
+            lblPorcentaje = new Label();
+            dgvProgreso = new DataGridView();
+            pgbProgreso = new ProgressBar();
+            ((System.ComponentModel.ISupportInitialize)dgvProgreso).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // lblTotal
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(189, 148);
-            label1.Name = "label1";
-            label1.Size = new Size(406, 70);
-            label1.TabIndex = 1;
-            label1.Text = "APARTADO DE PROGRESO\r\nY ESTADISTICA\r\n";
+            lblTotal.AutoSize = true;
+            lblTotal.Location = new Point(68, 9);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(38, 15);
+            lblTotal.TabIndex = 0;
+            lblTotal.Text = "label1";
+            // 
+            // lblDominadas
+            // 
+            lblDominadas.AutoSize = true;
+            lblDominadas.Location = new Point(68, 34);
+            lblDominadas.Name = "lblDominadas";
+            lblDominadas.Size = new Size(38, 15);
+            lblDominadas.TabIndex = 0;
+            lblDominadas.Text = "label1";
+            // 
+            // lblPorPracticar
+            // 
+            lblPorPracticar.AutoSize = true;
+            lblPorPracticar.Location = new Point(68, 59);
+            lblPorPracticar.Name = "lblPorPracticar";
+            lblPorPracticar.Size = new Size(38, 15);
+            lblPorPracticar.TabIndex = 0;
+            lblPorPracticar.Text = "label1";
+            // 
+            // lblPorcentaje
+            // 
+            lblPorcentaje.AutoSize = true;
+            lblPorcentaje.Location = new Point(68, 85);
+            lblPorcentaje.Name = "lblPorcentaje";
+            lblPorcentaje.Size = new Size(38, 15);
+            lblPorcentaje.TabIndex = 0;
+            lblPorcentaje.Text = "label1";
+            // 
+            // dgvProgreso
+            // 
+            dgvProgreso.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvProgreso.Location = new Point(33, 166);
+            dgvProgreso.Name = "dgvProgreso";
+            dgvProgreso.Size = new Size(652, 250);
+            dgvProgreso.TabIndex = 1;
+            // 
+            // pgbProgreso
+            // 
+            pgbProgreso.Location = new Point(92, 120);
+            pgbProgreso.Name = "pgbProgreso";
+            pgbProgreso.Size = new Size(550, 23);
+            pgbProgreso.TabIndex = 2;
             // 
             // FormProgreso
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            ClientSize = new Size(713, 446);
+            Controls.Add(pgbProgreso);
+            Controls.Add(dgvProgreso);
+            Controls.Add(lblPorcentaje);
+            Controls.Add(lblPorPracticar);
+            Controls.Add(lblDominadas);
+            Controls.Add(lblTotal);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormProgreso";
             Text = "FormProgreso";
+            Load += FormProgreso_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvProgreso).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Label lblTotal;
+        private Label lblDominadas;
+        private Label lblPorPracticar;
+        private Label lblPorcentaje;
+        private DataGridView dgvProgreso;
+        private ProgressBar pgbProgreso;
     }
 }
