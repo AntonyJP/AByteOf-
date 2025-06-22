@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ProgresoUsuarios\**" />
+    <EmbeddedResource Remove="ProgresoUsuarios\**" />
+    <None Remove="ProgresoUsuarios\**" />
+  </ItemGroup>
+
+  <ItemGroup>
 
     <None Remove="Assets\A byte of.png" />
 
@@ -52,10 +58,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ProgresoUsuarios\" />
   </ItemGroup>
 
 </Project>

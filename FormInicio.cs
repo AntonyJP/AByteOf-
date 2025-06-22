@@ -13,11 +13,13 @@ namespace AByteOf熊猫
 
     public partial class FormInicio : Form
     {
+        // Referencia al formulario contenedor principal
         private Log_in formPrincipal;
+        // Constructor que recibe una instancia del formulario principal
         public FormInicio(Log_in form)
         {
             InitializeComponent();
-            formPrincipal = form;
+            formPrincipal = form;// Guardar la referencia para poder cargar formularios dentro de él
         }
 
         private void btnIniciarSesion_Click(object sender, EventArgs e)

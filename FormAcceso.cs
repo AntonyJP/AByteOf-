@@ -18,24 +18,28 @@ namespace AByteOf熊猫
     {
         private int idUsuario;
 
+        // Constructor que recibe el ID del usuario que inició sesión
         public FormAcceso(int idUsuario)
         {
             InitializeComponent();
-
+            // Cargar el logo desde la carpeta Assets
             string rutaLogo = Path.Combine(Application.StartupPath, "Assets", "A byte of.png");
             pcbLogo.Image = Image.FromFile(rutaLogo);
-
+            // Guardar ID de usuario y asignarlo a AppState (estado global)
             this.idUsuario = idUsuario;
             AppState.IdUsuario = idUsuario;
+           
             CargarOCrearProgreso();
             CargarForm2parte(new FormMenuLearn());
 
         }
+        // Método para cargar un formulario hijo en el panel (panelMenu2)
         public void CargarForm2parte(object formHijo2)
         {
+            // Quitar cualquier formulario ya cargado en el panel
             if (this.panelMenu2.Controls.Count > 0)
                 this.panelMenu2.Controls.RemoveAt(0);
-
+            // Convierte el objeto a Form, lo configura para que se acople al panel
             Form j = formHijo2 as Form;
             j.TopLevel = false;
             j.Dock = DockStyle.Fill;
@@ -43,17 +47,19 @@ namespace AByteOf熊猫
             this.panelMenu2.Tag = j;
             j.Show();
         }
-
+        // Carga el progreso del usuario desde XML o lo crea si no existe
         private void CargarOCrearProgreso()
         {
+            // Rutas de los archivos XML
             string PathBase = Path.Combine(Application.StartupPath, "Recursos", "HSK1.xml");
             string PathUsuario = Path.Combine(Application.StartupPath, "ProgresoUsuarios", $"Usuario_{idUsuario}.xml");
-
+            // Asegurarse que exista la carpeta donde se guardarán los progresos
             Directory.CreateDirectory(Path.Combine(Application.StartupPath, "ProgresoUsuarios"));
 
             if (!File.Exists(PathUsuario))
             {
                 XDocument baseDoc = XDocument.Load(PathBase);
+                // Crear un nuevo XML con nodos que copian cada palabra del archivo base
                 var nuevasPalabras = new XElement("ProgresoUsuario",
                     new XAttribute("IdUsuario", idUsuario),
                     from pal in baseDoc.Descendants("Palabra")
@@ -71,6 +77,7 @@ namespace AByteOf熊猫
             }
 
             XDocument userDoc = XDocument.Load(PathUsuario);
+            // Cargar las palabras a una lista global (AppState) usando LINQ
             AppState.Palabras = (from pal in userDoc.Descendants("Palabra")
                                 select new Palabra
                                 {
@@ -84,6 +91,7 @@ namespace AByteOf熊猫
                                 }).ToList();
             MessageBox.Show($"Palabras cargadas: {AppState.Palabras.Count}");
         }
+        // Guarda el progreso actual del usuario en su archivo XML
 
         public void GuardarProgreso()
         {
@@ -96,7 +104,7 @@ namespace AByteOf熊猫
                     MessageBox.Show("No hay palabras para guardar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-
+                // Crear el documento XML con los datos actuales del usuario
                 var doc = new XDocument(
                     new XElement("ProgresoUsuario",
                         new XAttribute("IdUsuario", idUsuario),

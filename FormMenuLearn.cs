@@ -15,7 +15,7 @@ namespace AByteOf熊猫
         public FormMenuLearn()
         {
             InitializeComponent();
-
+            // Ruta del logo dentro de la carpeta "Assets" ubicada en el directorio raíz de la aplicación
             string rutaLogo = Path.Combine(Application.StartupPath, "Assets", "A byte of.png");
             pcbLogo.Image = Image.FromFile(rutaLogo);
         }

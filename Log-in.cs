@@ -15,7 +15,7 @@ namespace AByteOf熊猫
         public Log_in()
         {
             InitializeComponent();
-
+            // Carga la imagen del logo al iniciar la aplicación
             string rutaLogo = Path.Combine(Application.StartupPath, "Assets", "A byte of.png");
             pcbLogo.Image = Image.FromFile(rutaLogo);
 
@@ -23,11 +23,13 @@ namespace AByteOf熊猫
 
 
         }
+        // Método para cargar un formulario dentro del panel llamado "panelMenu"
         public void CargarForm(object formHijo)
         {
+            // Si ya hay un formulario cargado, lo quita
             if (this.panelMenu.Controls.Count > 0)
                 this.panelMenu.Controls.RemoveAt(0);
-
+            // Convierte el objeto a Form, lo configura para que se acople al panel
             Form fh = formHijo as Form;
             fh.TopLevel = false;
             fh.Dock = DockStyle.Fill;

@@ -14,14 +14,17 @@ namespace AByteOf熊猫
 {
     public partial class FormIniciarSesion : Form
     {
+        // Cliente HTTP reutilizable para llamadas a la API
         private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("https://localhost:7159/") };
         private Log_in formPrincipal;
         public FormIniciarSesion(Log_in form)
         {
             InitializeComponent();
             formPrincipal = form;
+            // Registrar evento de carga para inicializar componentes visuales
             this.Load += FormRegistrarse_Load;
         }
+        // Al cargar el formulario se configura el botón de mostrar/ocultar contraseña
         private void FormRegistrarse_Load(object sender, EventArgs e)
         {
             // Mostrar la imagen del ojo btncontra
@@ -33,6 +36,7 @@ namespace AByteOf熊猫
             
 
         }
+        // Método para redimensionar la imagen del botón (ojo)
         private Image RedimensionarImagen(Image img, int ancho, int alto)
         {
             Bitmap bmp = new Bitmap(ancho, alto);
@@ -47,12 +51,13 @@ namespace AByteOf熊猫
         {
             formPrincipal.CargarForm(new FormInicio(formPrincipal));
         }
-
+        // Alternar visibilidad de la contraseña
         bool mostrarContra = false;
         private void btnVerContrai_Click(object sender, EventArgs e)
         {
             mostrarContra = !mostrarContra;
             txtContraseñai.UseSystemPasswordChar = !mostrarContra;
+            // Cambiar la imagen según el estado (mostrar/ocultar)
             if (mostrarContra)
             {
                 btnVerContrai.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
@@ -62,7 +67,7 @@ namespace AByteOf熊猫
                 btnVerContrai.Image = RedimensionarImagen(Properties.Resources.ojoCerrado, 40, 30);
             }
         }
-
+        // Evento que intenta iniciar sesión llamando a la API
         private async void btnIniciarCuentaApp_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtUsuarioOCorreoi.Text) || string.IsNullOrWhiteSpace(txtContraseñai.Text))
@@ -70,8 +75,8 @@ namespace AByteOf熊猫
         MessageBox.Show("El correo o usuario y la contraseña son obligatorios.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         return;
     }
-
-    var usuario = new Usuarios
+          // Crear el objeto usuario a enviar
+          var usuario = new Usuarios
     {
         Correo = txtUsuarioOCorreoi.Text,
         Contrasena = txtContraseñai.Text
@@ -79,7 +84,8 @@ namespace AByteOf熊猫
 
     try
     {
-        var jsonContent = new StringContent(
+             // Convertir a JSON y enviar POST a la API
+            var jsonContent = new StringContent(
             JsonConvert.SerializeObject(usuario),
             Encoding.UTF8,
             "application/json"

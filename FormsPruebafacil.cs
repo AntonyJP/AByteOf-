@@ -16,13 +16,13 @@ namespace AByteOf熊猫
         private Random random = new Random();
         private Palabra palabraActual;
         private int modoSeleccionado;
-
+        // Constructor que recibe el modo de prueba seleccionado
         public FormsPruebafacil(int modoSeleccionado)
         {
             InitializeComponent();
             this.modoSeleccionado = modoSeleccionado;
         }
-
+        // Evento que se ejecuta al cargar el formulario
         private void FormsPruebas_Load(object sender, EventArgs e)
         {
             if (AppState.Palabras == null || !AppState.Palabras.Any())
@@ -31,7 +31,7 @@ namespace AByteOf熊猫
                 this.Close();
                 return;
             }
-
+            // Si está en modo 'aprender nuevas', filtra las palabras con estado menor a 6
             if (modoSeleccionado == 1)
             {
                 var palabrasDisponibles = AppState.Palabras.Where(p => p.Estado < 6).ToList();
@@ -44,7 +44,7 @@ namespace AByteOf熊猫
             }
             CargarNuevPalabra();
         }
-
+        // Método para seleccionar y mostrar una nueva palabra
         private void CargarNuevPalabra()
         {
             var palabrasDisponiles = AppState.Palabras.Where(p => p.Estado < 10).ToList();
@@ -90,7 +90,7 @@ namespace AByteOf熊猫
 
             GuardarYSeguir();
         }
-
+        // Guarda el progreso actual y carga otra palabra
         private void GuardarYSeguir()
         {
             FormAcceso formAcceso = this.ParentForm as FormAcceso;

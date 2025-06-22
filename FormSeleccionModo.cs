@@ -20,7 +20,7 @@ namespace AByteOf熊猫
         {
             InitializeComponent();
         }
-
+        // Evento al hacer clic en el botón "Aprender nuevas palabras"
         private void btnAprenderNuevasPalabras_Click(object sender, EventArgs e)
         {
             ModoSeleccionado = 1;
@@ -32,7 +32,7 @@ namespace AByteOf熊猫
             ModoSeleccionado = 2;
             CargarFormularioPrueba();
         }
-
+        // Al cargar el formulario se verifica si hay suficientes palabras avanzadas para activar el modo reforzar
         private void FormSeleccionModo_Load(object sender, EventArgs e)
         {
             var palabrasAvanzadas = AppState.Palabras.Count(p => p.Estado > 5);
@@ -49,6 +49,7 @@ namespace AByteOf熊猫
 
         private void CargarFormularioPrueba()
         {
+            // Se obtiene el formulario principal que contiene este
             FormAcceso formAcceso = this.ParentForm as FormAcceso;
             if (formAcceso != null)
             {
