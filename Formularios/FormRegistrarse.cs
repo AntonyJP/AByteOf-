@@ -47,6 +47,20 @@ namespace AByteOf熊猫
                 return;
             }
 
+            // Validar que la contraseña sea mayor a 6 digitos
+            if (txtContraseñaRe.Text.Length < 6 || txtConfirmarContraseñaRe.Text.Length < 6)
+            {
+                MessageBox.Show("La contraseña debe tener al menos 6 caracteres.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Validar que el correo tenga el formato correcto  
+            if (!System.Text.RegularExpressions.Regex.IsMatch(txtCorreoRe.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                MessageBox.Show("El correo debe tener un formato válido (ejemplo: nombre@gmail.com).", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             // Crear el modelo para el registro usando la clase Usuario
             var usuario = new Usuarios
             {
