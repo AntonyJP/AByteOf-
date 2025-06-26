@@ -36,6 +36,7 @@
             // 
             // dgvPalabras
             // 
+            dgvPalabras.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvPalabras.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPalabras.Location = new Point(34, 64);
             dgvPalabras.Name = "dgvPalabras";

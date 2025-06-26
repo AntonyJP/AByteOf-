@@ -50,6 +50,7 @@ namespace AByteOf熊猫
             dgvProgreso.Columns.Add("Actividad", "Actividad");
             dgvProgreso.Columns["Actividad"].DataPropertyName = "Actividad";
             dgvProgreso.Columns["Actividad"].Visible = false;
+            dgvProgreso.Columns["IdPalabra"].Visible = false;
             // Hacer todas las columnas de solo lectura
             foreach (DataGridViewColumn column in dgvProgreso.Columns)
             {

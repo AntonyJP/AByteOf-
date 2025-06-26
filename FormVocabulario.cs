@@ -39,6 +39,7 @@ namespace AByteOf熊猫
             dgvPalabras.Columns.Add("Actividad", "Actividad");
             dgvPalabras.Columns["Actividad"].DataPropertyName = "Actividad";
             dgvPalabras.Columns["Actividad"].Visible = false;
+            dgvPalabras.Columns["IdPalabra"].Visible = false;
             // Todas las columnas son de solo lectura
             foreach (DataGridViewColumn column in dgvPalabras.Columns)
             {

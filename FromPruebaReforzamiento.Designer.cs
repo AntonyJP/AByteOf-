@@ -1,6 +1,6 @@
 ﻿namespace AByteOf熊猫
 {
-    partial class FormsPruebafacil
+    partial class FromPruebaReforzamiento
     {
         /// <summary>
         /// Required designer variable.
@@ -38,41 +38,41 @@
             // 
             lblPregunta.AutoSize = true;
             lblPregunta.Font = new Font("Noto Sans SC Medium", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblPregunta.Location = new Point(138, 41);
+            lblPregunta.Location = new Point(117, 34);
             lblPregunta.Name = "lblPregunta";
             lblPregunta.Size = new Size(74, 30);
-            lblPregunta.TabIndex = 0;
+            lblPregunta.TabIndex = 1;
             lblPregunta.Text = "label1";
             lblPregunta.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtRespuesta
             // 
-            txtRespuesta.Location = new Point(199, 125);
+            txtRespuesta.Location = new Point(207, 132);
             txtRespuesta.Name = "txtRespuesta";
             txtRespuesta.Size = new Size(324, 23);
-            txtRespuesta.TabIndex = 1;
+            txtRespuesta.TabIndex = 2;
             // 
             // btnEnviar
             // 
-            btnEnviar.Location = new Point(441, 210);
+            btnEnviar.Location = new Point(449, 205);
             btnEnviar.Name = "btnEnviar";
             btnEnviar.Size = new Size(82, 35);
-            btnEnviar.TabIndex = 3;
+            btnEnviar.TabIndex = 7;
             btnEnviar.Text = "Enviar";
             btnEnviar.UseVisualStyleBackColor = true;
             btnEnviar.Click += btnEnviar_Click;
             // 
             // btnBack
             // 
-            btnBack.Location = new Point(33, 411);
+            btnBack.Location = new Point(38, 399);
             btnBack.Name = "btnBack";
             btnBack.Size = new Size(75, 23);
-            btnBack.TabIndex = 4;
+            btnBack.TabIndex = 8;
             btnBack.Text = "Regresar";
             btnBack.UseVisualStyleBackColor = true;
             btnBack.Click += btnBack_Click;
             // 
-            // FormsPruebafacil
+            // FromPruebaReforzamiento
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -82,10 +82,10 @@
             Controls.Add(txtRespuesta);
             Controls.Add(lblPregunta);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 2, 3, 2);
-            Name = "FormsPruebafacil";
-            Text = "FormsPruebas";
-            Load += FormsPruebas_Load;
+            Name = "FromPruebaReforzamiento";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "FromPruebaReforzamiento";
+            Load += FromPruebaReforzamiento_Load;
             ResumeLayout(false);
             PerformLayout();
         }

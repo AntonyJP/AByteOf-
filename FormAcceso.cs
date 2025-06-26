@@ -92,7 +92,6 @@ namespace AByteOf熊猫
             MessageBox.Show($"Palabras cargadas: {AppState.Palabras.Count}");
         }
         // Guarda el progreso actual del usuario en su archivo XML
-
         public void GuardarProgreso()
         {
             string userPath = Path.Combine(Application.StartupPath, "ProgresoUsuarios", $"Usuario_{idUsuario}.xml");
@@ -121,7 +120,6 @@ namespace AByteOf熊猫
                     )
                 );
                 doc.Save(userPath);
-                MessageBox.Show("Progreso guardado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {

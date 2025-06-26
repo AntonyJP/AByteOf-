@@ -25,12 +25,6 @@ namespace AByteOf熊猫
         // Evento que se ejecuta al cargar el formulario
         private void FormsPruebas_Load(object sender, EventArgs e)
         {
-            if (AppState.Palabras == null || !AppState.Palabras.Any())
-            {
-                MessageBox.Show("No hay palabras cargadas. Verifica el progreso del usuario.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Close();
-                return;
-            }
             // Si está en modo 'aprender nuevas', filtra las palabras con estado menor a 6
             if (modoSeleccionado == 1)
             {
@@ -61,16 +55,10 @@ namespace AByteOf熊猫
             }
 
             palabraActual = palabrasDisponiles[random.Next(palabrasDisponiles.Count)];
-            if (lblPregunta == null)
-            {
-                MessageBox.Show("El control lblPregunta no está inicializado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
             lblPregunta.Text = $"¿Qué significa {palabraActual.Caracter}? ({palabraActual.Pinyin})";
             txtRespuesta.Text = "";
             txtRespuesta.Focus();
             btnEnviar.Enabled = true;
-            btnSiguiente.Enabled = false;
         }
 
         private void btnEnviar_Click(object sender, EventArgs e)
@@ -80,14 +68,15 @@ namespace AByteOf熊猫
 
             if (respuestaUsuario == significadoCorrecto)
             {
+                MessageBox.Show("¡Respuesta correcta!", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 palabraActual.VecesCorrectas++;
                 palabraActual.Estado = Math.Min(palabraActual.VecesCorrectas / 20, 10);
             }
-
-            // Asegurarse de habilitar el botón "Siguiente" después de procesar  
-            btnSiguiente.Enabled = true;
-            btnEnviar.Enabled = false;
-
+            else
+            {
+                MessageBox.Show($"Respuesta incorrecta. La respuesta correcta era: {palabraActual.Significado}", "Incorrecto", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                btnEnviar.Enabled = false;
+            }
             GuardarYSeguir();
         }
         // Guarda el progreso actual y carga otra palabra
@@ -100,13 +89,8 @@ namespace AByteOf熊猫
             }
             CargarNuevPalabra();
             btnEnviar.Enabled = true;
-            btnSiguiente.Enabled = false;
         }
 
-        private void btnSiguiente_Click(object sender, EventArgs e)
-        {
-            GuardarYSeguir();
-        }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
@@ -116,6 +100,6 @@ namespace AByteOf熊猫
                 formAcceso.CargarForm2parte(new FormSeleccionModo());
             }
             this.Hide();
-            }
+        }
     }
 }

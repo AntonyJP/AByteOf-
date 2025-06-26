@@ -59,7 +59,7 @@ namespace AByteOf熊猫
                 }
                 else if (ModoSeleccionado == 2)
                 {
-                    formAcceso.CargarForm2parte(new FormPruebaDificil());
+                    formAcceso.CargarForm2parte(new FromPruebaReforzamiento(ModoSeleccionado));
                 }
             }
             this.Hide();

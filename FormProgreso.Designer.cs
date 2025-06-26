@@ -75,6 +75,7 @@
             // 
             // dgvProgreso
             // 
+            dgvProgreso.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvProgreso.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvProgreso.Location = new Point(33, 166);
             dgvProgreso.Name = "dgvProgreso";
@@ -83,7 +84,7 @@
             // 
             // pgbProgreso
             // 
-            pgbProgreso.Location = new Point(92, 120);
+            pgbProgreso.Location = new Point(92, 137);
             pgbProgreso.Name = "pgbProgreso";
             pgbProgreso.Size = new Size(550, 23);
             pgbProgreso.TabIndex = 2;
