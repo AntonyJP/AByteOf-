@@ -88,13 +88,15 @@ namespace AByteOf熊猫
         private void FormRegistrarse_Load(object sender, EventArgs e)
         {
             // Mostrar la imagen del ojo btncontra
-           
-            btnVerContraR.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
+            txtContraseñaRe.UseSystemPasswordChar = true;
+            btnVerContraR.Image = RedimensionarImagen(Properties.Resources.ojoCerrado, 40, 30);
             btnVerContraR.Text = ""; 
             btnVerContraR.ImageAlign = ContentAlignment.MiddleCenter;
             //Mostrar  imagen del ojo btnconfirmarcontra
-           
-            btnVerContraConfirmarR.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
+            txtConfirmarContraseñaRe.UseSystemPasswordChar= true;
+            btnVerContraConfirmarR.Image = RedimensionarImagen(Properties.Resources.ojoCerrado
+                
+                , 40, 30);
             btnVerContraConfirmarR.Text = "";
             btnVerContraConfirmarR.ImageAlign = ContentAlignment.MiddleCenter;
 

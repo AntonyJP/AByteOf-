@@ -28,8 +28,8 @@ namespace AByteOf熊猫
         private void FormRegistrarse_Load(object sender, EventArgs e)
         {
             // Mostrar la imagen del ojo btncontra
-
-            btnVerContrai.Image = RedimensionarImagen(Properties.Resources.ojoabierto, 40, 30);
+            txtContraseñai.UseSystemPasswordChar = true;
+            btnVerContrai.Image = RedimensionarImagen(Properties.Resources.ojoCerrado, 40, 30);
             btnVerContrai.Text = "";
             btnVerContrai.ImageAlign = ContentAlignment.MiddleCenter;
             
